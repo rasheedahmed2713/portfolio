@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .main img{
+            height: 70px;
+            width: 120px;
+            object-fit: cover;
+            object-position: center;
+          
+        }
+        .main{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .img{
+            display: flex;
+            margin-right: 700px;
+            align-items: center;   
+             }
+        .p{
+            font-size: 28px;
+            margin-right: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            
+        }
+        .button{
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .button img{
+            height:70px ;
+            padding-top: 20px;
+            width: 200px;
+        }
+        .button2{
+            font-size: 18px;
+            padding: 11px 16px;
+            border-radius: 30px;
+             cursor: pointer;
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            outline-color: white;
+            box-shadow: 0px 0px 7px grey;
+            margin-right: 20px;
+        }
+        .button2:hover{
+            color: white;
+            background-color: blue;
+            font-weight: bold;
+           
+        }
+        .button3{
+            border-radius: 25px;
+            background-color: orangered;
+            padding: 6px 10px;
+            outline:none;
+            border: none;
+            box-shadow: 0px 0px 7px gray;
+            cursor: pointer;
+        }
+        .button3 :hover{
+            color: white;
+            background-color: white;
+            font-weight: bold;
+        }
+        .main2{
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .button3:hover{
+            color: white;
+            background-color: blue;
+        }
+        .pic img{
+            border-radius: 22px;
+            border-top-right-radius: 22px;
+            border-bottom-left-radius: 22px;
+            height: 350px;
+            width: 350px;
+            object-fit: cover;
+            object-position: center;
+            margin-right: 30px;
+            
+        }
+        .user{
+            color: orangered;
+        }
+        .main3{
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            background-color: rgb(118, 73, 223);
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        .child{ 
+            display: flex;
+            justify-content: space-between;
+        }
+        .child img{
+            height: 20px;
+            width: 20px;
+            padding-left: 14px;
+            cursor: pointer;
+        }
+        @media(max-width:550px){
+           .contanier{
+            display: flex;
+            flex-direction: column;
+           }
+        }
+        
+    </Style>
+</head>
+<body><div class="contanier">
+     <div class="main">
+        <div class="img">
+        <img src="bor.webp" alt="">
+        <p class="p">Borcelle</p>
+       </div>
+       <div class="child">
+        <img src="github.png" alt="">
+        <img src="twitter.png" alt="">
+        <img src="instagram.png" alt="">
+       </div>
+       <div class="button">
+         
+        <button class="button2">DOWNLOAD CV</button>
+       </div>
+    </div>
+    <div class="main2">
+        <div>
+            <p>Hello my name is </p>
+            <h1>Sophia.</h1>
+            <h1 class="user">User Experience <br> Specialist And <br>Digital Designer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. 
+                 Natus tempore ullam suscipit <br>iure odio ab et id 
+                assumenda officia consequatur,<br> maiores eaque? Facere doloribus.<br></p>
+                <button class="button3">Free Template</button>
+        </div>
+        <div class="pic">
+            <img src="rasheed2.jpeg" alt="">
+        </div>
+    </div>
+    <div class="main3">
+        <ul><li>HTML5</li></ul>
+        <ul><li>Java Script</li></ul>
+        <ul><li>CSS</li></ul>
+        <ul><li>Figma</li></ul>
+        <ul><li>Front End</li></ul>
+        <ul><li>Designer</li></ul>
+        <ul><li>UI/UX</li></ul>
+        <ul><li>Experience</li></ul>
+    </div>
+    </div>
+</body>
+</html>
